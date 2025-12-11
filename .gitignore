@@ -1,0 +1,36 @@
+node_modules
+.env
+.env.local
+dist
+pnpm-lock.yaml
+coverage
+.pnpm-store
+.DS_Store
+
+# Warelay data
+.warelay/
+
+# Build outputs
+*.log
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+# Temp files
+.temp_art/
+*.tmp
+.cache/
+
+# Package locks (keep package.json only)
+package-lock.json
+
+# Deployment
+.vercel/
