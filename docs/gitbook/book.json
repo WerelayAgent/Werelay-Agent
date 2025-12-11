@@ -1,0 +1,42 @@
+{
+  "title": "Warelay Agent Documentation",
+  "description": "Framework for building autonomous AI agents on WhatsApp, Telegram, Twitter, and Farcaster",
+  "author": "Warelay Team",
+  "language": "en",
+  "root": "./docs/gitbook",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "theme-default",
+    "search",
+    "code",
+    "highlight",
+    "-lunr",
+    "search-pro",
+    "github",
+    "anchorjs",
+    "edit-link",
+    "copy-code-button"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "github": {
+      "url": "https://github.com/warelayagent/warelay-agent"
+    },
+    "edit-link": {
+      "base": "https://github.com/warelayagent/warelay-agent/edit/main/docs/gitbook",
+      "label": "Edit on GitHub"
+    }
+  },
+  "links": {
+    "sidebar": {
+      "GitHub": "https://github.com/warelayagent/warelay-agent",
+      "Twitter": "https://twitter.com/warelayagent",
+      "Website": "https://warelay.io"
+    }
+  }
+}
